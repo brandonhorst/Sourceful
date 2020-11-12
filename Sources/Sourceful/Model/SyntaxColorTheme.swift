@@ -11,10 +11,10 @@ import CoreGraphics
 
 public struct LineNumbersStyle {
 	
-	public let font: Font
-	public let textColor: Color
+	public let font: SourcefulFont
+	public let textColor: SourcefulColor
 	
-	public init(font: Font, textColor: Color) {
+	public init(font: SourcefulFont, textColor: SourcefulColor) {
 		self.font = font
 		self.textColor = textColor
 	}
@@ -23,14 +23,14 @@ public struct LineNumbersStyle {
 
 public struct GutterStyle {
 
-	public let backgroundColor: Color
+	public let backgroundColor: SourcefulColor
 
 	/// If line numbers are displayed, the gutter width adapts to fit all line numbers.
 	/// This specifies the minimum width that the gutter should have at all times,
 	/// regardless of any line numbers.
 	public let minimumWidth: CGFloat
 	
-	public init(backgroundColor: Color, minimumWidth: CGFloat) {
+	public init(backgroundColor: SourcefulColor, minimumWidth: CGFloat) {
 		self.backgroundColor = backgroundColor
 		self.minimumWidth = minimumWidth
 	}
@@ -43,9 +43,9 @@ public protocol SyntaxColorTheme {
 	
 	var gutterStyle: GutterStyle { get }
 	
-	var font: Font { get }
+	var font: SourcefulFont { get }
 	
-	var backgroundColor: Color { get }
+	var backgroundColor: SourcefulColor { get }
 
 	func globalAttributes() -> [NSAttributedString.Key: Any]
 

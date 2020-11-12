@@ -19,7 +19,7 @@ protocol InnerTextViewDelegate: class {
 	func didUpdateCursorFloatingState()
 }
 
-class InnerTextView: TextView {
+class InnerTextView: SourcefulTextView {
 	
 	weak var innerDelegate: InnerTextViewDelegate?
 	

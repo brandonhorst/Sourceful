@@ -12,15 +12,15 @@ import Foundation
 	
 	import AppKit
 	
-	public typealias View			= NSView
-	public typealias ViewController = NSViewController
-	public typealias Window			= NSWindow
-	public typealias Control		= NSControl
-	public typealias TextView		= NSTextView
-	public typealias TextField		= NSTextField
-	public typealias Button			= NSButton
-	public typealias Font			= NSFont
-	public typealias Color			= NSColor
+	public typealias SourcefulView			= NSView
+	public typealias SourcefulViewController = NSViewController
+	public typealias SourcefulWindow			= NSWindow
+	public typealias SourcefulControl		= NSControl
+	public typealias SourcefulTextView		= NSTextView
+	public typealias SourcefulTextField		= NSTextField
+	public typealias SourcefulButton			= NSButton
+	public typealias SourcefulFont			= NSFont
+	public typealias SourcefulColor			= NSColor
 	public typealias StackView		= NSStackView
 	public typealias Image			= NSImage
 	public typealias BezierPath		= NSBezierPath
@@ -31,15 +31,15 @@ import Foundation
 	
 	import UIKit
 	
-	public typealias View			= UIView
-	public typealias ViewController = UIViewController
-	public typealias Window			= UIWindow
-	public typealias Control		= UIControl
-	public typealias TextView		= UITextView
-	public typealias TextField		= UITextField
-	public typealias Button			= UIButton
-	public typealias Font			= UIFont
-	public typealias Color			= UIColor
+	public typealias SourcefulView			= UIView
+	public typealias SourcefulViewController = UIViewController
+	public typealias SourcefulWindow			= UIWindow
+	public typealias SourcefulControl		= UIControl
+	public typealias SourcefulTextView		= UITextView
+	public typealias SourcefulTextField		= UITextField
+	public typealias SourcefulButton			= UIButton
+	public typealias SourcefulFont			= UIFont
+	public typealias SourcefulColor			= UIColor
 	public typealias StackView		= UIStackView
 	public typealias Image			= UIImage
 	public typealias BezierPath		= UIBezierPath

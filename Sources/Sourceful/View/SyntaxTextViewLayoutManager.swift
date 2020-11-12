@@ -80,11 +80,11 @@ class SyntaxTextViewLayoutManager: NSLayoutManager {
 			
 			// UIBezierPath with rounded
 			
-			let color: Color
+			let color: SourcefulColor
 			
 			switch state {
 			case .active:
-				color = Color.white.withAlphaComponent(0.8)
+				color = SourcefulColor.white.withAlphaComponent(0.8)
 			case .inactive:
 				color = .darkGray
 			}
